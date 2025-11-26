@@ -1,0 +1,662 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    max-width: 100%;
+    font-family: 'noto sans', sans-serif;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #00000085;
+    height: 150px;
+    color: white;
+}
+
+header nav h2 {
+    font-size: 30px;
+}
+
+header nav span {
+    color: #63c1ff;
+}
+
+header li {
+    display: flex;
+    gap: 50px;
+}
+
+header nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+#pagEsc {
+    color: #63c1ff;
+    border: 2px solid #63c1ff;
+    padding: 5px 15px;
+}
+
+header {
+   background-image: url(../assets/images/Fondo.png);
+   background-size: cover;
+   height: 42vw;
+}
+
+.infoHeader {
+    height: 31vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.infoHeader div p{
+    width: fit-content;
+    background-color: #00000085;
+    padding: 0 10px;
+    margin: 10px 0;
+    color: white;
+    font-size: 40px;
+    font-weight: 300;
+}
+
+.sectBlue {
+    padding: 10%;
+    height: auto;
+    background-color: #63c1ff;
+    display: flex;
+    justify-content: space-around;
+    align-items: end;
+    gap: 20px;
+    color: white;
+}
+
+.sectBlue div h3 {
+    font-size: 25px;
+    font-weight: 400;
+    padding: 10px 0;
+}
+
+.sectBlue div p {
+    font-size: 13px;
+}
+
+.portfolio nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 150px;
+    margin: 20px 0;
+}
+
+.portfolio li {
+    display: flex;
+    gap: 50px;
+}
+
+#all {
+    color: #63c1ff;
+    border: 2px solid #63c1ff;
+    padding: 5px 15px;
+}
+
+.portfolio a {
+    text-decoration: none;
+    color: #000000b6;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.portfolio h2{
+    color: #000000b6;
+    font-size: 30px;
+    font-weight: 300;
+}
+
+.portfolio hr {
+    border-top: 2px solid #000;
+    width: 55px;
+}
+
+.gridImages {
+    display: grid;
+    grid-template-columns: repeat(4, 300px);
+    gap: 15px;
+    justify-content: center;
+}
+
+.gridImages img {
+    width: 220px;
+}
+
+.sectVideo {
+    display: flex;
+    background-color: #3b4449;
+    color: #fff;
+    height: 550px;
+}
+
+.videoInfo {
+    width: 50%;
+    padding: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.sectVideo h2 {
+    font-size: 30px;
+    font-weight: 300;
+}
+
+.sectVideo hr {
+    border-top: 1px solid #fff;
+    width: 55px;
+    margin: 5px 0 40px;
+}
+
+.sectVideo p {
+    font-size: 17px;
+    font-weight: 300;
+    padding-bottom: 40px;
+    line-height: 1.7;
+}
+
+.sectVideo button {
+    font-size: 16px;
+    font-weight: bold;
+    color: #0000009a;
+    width: 160px;
+    padding: 15px;
+    background-color: transparent;
+    border: 1px solid #000000be;
+}
+
+.videoImg {
+    padding-left: 70px;
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
+
+.videoImg img {
+    width: 500px;
+}
+
+.twitter {
+    background-color: #63c1ff;
+    height: 350px;
+    padding: 60px 0; 
+}
+
+.twitterTitulo {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 190px;
+}
+
+.twitter h2 {
+    color: #fff;
+    font-size: 30px;
+    font-weight: 300;
+}
+
+.twitter hr {
+    border-top: 1px solid #fff;
+    width: 55px;
+}
+
+.twitter img {
+    width: 30px;
+    height: 30px;
+}
+
+.twitter p {
+    font-size: 28px;
+    font-weight: 200;
+    padding: 50px 190px 0;
+    color: #fff;
+    line-height: 1.7;
+}
+
+.twitter span {
+    font-weight: 600;
+}
+
+.whoIs {
+    background-image: url(../assets/images/bg_whoIs.png);
+    background-size: cover;
+    height: 500px;
+    padding: 30px 0;
+}
+
+.whoTitulo {
+    padding: 50px 140px;
+}
+
+.whoIs h2 {
+
+    color: #fff;
+    font-size: 30px;
+    font-weight: 300;
+}
+
+.whoIs hr {
+    border-top: 1px solid #fff;
+    width: 55px;
+}
+
+.whoIs p {
+    color: #fff;
+}
+
+.whoIsGrid {
+    display: grid;
+    grid-template-columns: repeat(2, 500px);
+    justify-content: center;
+    gap: 50px;
+    line-height: 1.7;
+    font-size: 17px;
+    font-weight: 300;
+}
+
+.whoIsImages {
+    display: flex;
+    gap: 20px;
+}
+
+.whoIsImages img {
+    height: 86.67px;
+}
+
+.testimonials {
+    height: 400px;
+    padding: 80px 190px;
+}
+
+.testTitulo {
+    display: flex;
+    justify-content: space-between;
+}
+
+.testTitulo h2 {
+    color: #000000be;
+    font-size: 30px;
+    font-weight: 300;
+}
+
+.testTitulo hr {
+    border-top: 2px solid #000;
+    width: 55px;
+}
+
+.testTitulo h3 {
+    font-size: 60px;
+    color: #000000be;
+}
+
+.testimonials p {
+    font-size: 28px;
+    font-weight: 200;
+    color: #000000be;
+    line-height: 1.7;
+    padding-bottom: 30px;
+}
+
+.testimonials a {
+    text-decoration: none;
+    color: #63c1ff;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.sectContact {
+    height: 850px;
+    background-image: url(..//assets/images/bg_contact.png);
+    background-size: cover;
+}
+
+.sectContact h2 {
+    padding: 100px 0 0 120px;
+    color: #fff;
+    font-size: 30px;
+    font-weight: 300;
+}
+
+.sectContact hr {
+    margin-left:120px;
+    border-top: 1px solid #fff;
+    width: 55px;
+}
+
+.sectContact form {
+    display: grid;
+    grid-template-columns: repeat(2, 500px);
+    justify-content: center;
+    gap: 30px;
+    padding-top: 40px;
+    
+}
+
+.sectContact label {
+    color: #fff;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.sectContact input {
+    width: 600px;
+    height: 50px;
+    margin-top: 10px;
+    background-color: transparent;
+    border: 2px solid #fff;
+}
+
+.sectContact article {
+    font-size: 17px;
+    font-weight: 300;
+    color: #fff;
+    line-height: 1.7;  
+}
+
+.textarea {
+    grid-column: 1/3;
+}
+
+.textarea textarea {
+    width: 1240px;
+    height: 200px;
+    background-color: transparent;
+    border: 2px solid #fff;
+    margin-top: 10px;
+}
+
+.sectContact button {
+    width: 300px;
+    height: 60px;
+    background-color: #63c1ff;
+    border: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+footer {
+    background-color: #3b4449;
+    display: flex;
+    justify-content: space-between;
+    padding: 60px 190px;
+}
+
+footer div {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+footer a {
+    text-decoration: none;
+    color: #ffffff25;
+    font-size: 12px;
+}
+
+footer hr {
+    height: 12px;
+}
+
+footer p {
+    font-size: 12px;
+    color: #ffffff25;
+}
+
+
+/* media queries */
+
+@media (max-width: 1279px) {
+
+    .infoHeader{
+        height: auto;
+        margin: 10%;
+    }
+
+    .infoHeader div p{
+        font-size: 30px;
+    }
+    .sectBlue {
+        padding: 10%;
+        height: auto;
+    }
+
+    .gridImages {
+        grid-template-columns: repeat(3, 1fr);
+        margin: 0 150px 80px;
+    }
+
+    .sectVideo {
+        height: auto;
+        padding: 3%;
+    }
+
+    .videoInfo {
+        padding: 3%;
+    }
+
+    .videoImg img {
+        width: 550px;
+    }
+
+    .twitter {
+        height: auto;
+    }
+
+    .whoIs {
+        height: auto;
+    }
+
+    .testimonials {
+        height: auto;
+    }
+
+    .twitterTitulo,
+    .twitter p,
+    .whoTitulo,
+    .whoIsGrid,
+    .testimonials, footer {
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+
+    .whoIsGrid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .sectContact {
+        height: auto;
+        padding: 2%;
+    }
+
+    .sectContact form {
+        max-width: 100%;
+        gap: 3%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .SectContactArticle {
+        order: 1;
+    }
+
+    .textarea textarea {
+        width: 100%;
+    }
+}
+
+@media (max-width: 920px) {
+
+    header nav {
+        height: 100px;
+    }
+
+    .infoHeader {
+        margin: 5%;
+    }
+
+    .infoHeader div p {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 768px) {
+
+    header {
+        height: 50vh;
+    }
+
+    header nav {
+        height: 70px;
+        gap: 1%;
+    }
+
+    header nav h1{
+        width: 20%;
+        font-size: 20px;
+    }
+
+    header nav li {
+        width: 70%;
+        gap: 3%;
+    }
+
+    header nav li a {
+        font-size: 10px;
+    }
+
+    .sectBlue {
+        padding: 3% 4% ;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .sectBlue div {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: auto;
+    }
+
+    .sectBlue div p {
+        font-size: 10px;
+        text-align: center;
+    }
+
+    .sectBlue div h3 {
+        font-size: 15px;
+    }
+
+    .portfolio li {
+        gap: 4%;
+        width: 70%;
+    }
+
+    .portfolio li ul a {
+        font-size: 10px;
+    }
+
+    .portfolio nav div h2 {
+        font-size: 15px;
+        width: 30%;
+    }
+
+    .portfolio {
+        height: auto;
+    }
+
+    .portfolio nav {
+        height: auto;
+    }
+
+    .gridImages {
+        margin: 0% 20% 10%;
+    }
+
+    .sectVideo {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .videoInfo {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .videoImg {
+        padding: 0px;
+        margin: 5% 0%;
+    }
+
+    .whoIsImages {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 2%;
+    }
+
+    .whoIsImages div img {
+        height: 40px;
+    }
+
+    footer {
+        padding: 5%;
+    }
+}
+
+@media (max-width: 480px) {
+    
+    header nav h1 {
+        font-size: 17px;
+    }
+
+    header nav li ul a {
+        font-size: 7px;
+    }
+
+    .portfolio li {
+        gap: 2%;
+    }
+
+    .portfolio li ul a {
+        font-size: 8px;
+    }
+
+    .sectContact {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .sectContact h2 {
+        padding: 0%;
+    }
+
+    .sectContact hr {
+        margin-right: 200px;
+    }
+
+    footer div a {
+        font-size: 7px;
+    }
+}
